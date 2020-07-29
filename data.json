@@ -4,13 +4,14 @@
 	"name" : "sharon",
 	"email": "sharonfernadiz@gmail.com",
 	"add"	:"Hyderabad",
-	"profile": "model at Fine Jwels"
+	"prof": "model at Fine Jwels"
 	},
 	"profileb":
 	{
 	"name" : "samantha",
+	"prof": "Model/Actress/Producer",
 	"email": "samantharuth@gmail.com",
-	"add"	:"Machilipatnam",
-	"profile": "Model/Actress/Producer"
+	"add"	:"Machilipatnam"
+	
 	}
 }
