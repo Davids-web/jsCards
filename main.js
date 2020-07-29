@@ -27,7 +27,7 @@ function aprofile(card)
  pdata.classList.add('border','col-5','p-3','my-3','text-white')
  var pic=document.createElement('img')
  pic.src="sharon.jpg"
- pic.classList.add('col-8')
+ //pic.classList.add('col-8','')
  pdata.appendChild(pic)
  var name=document.createElement('h3')
  name.textContent=card.name;
@@ -52,7 +52,7 @@ function bprofile(bcard){
 	pdata2.classList.add('border','col-5','p-3','my-3')
 	var pic=document.createElement('img');
 	pic.src='samantha.jpg'
-	pic.classList.add('col-8')
+	//pic.classList.add('col-8')
 	pdata2.appendChild(pic)
 	for (var i in bcard){
 		var dlop=document.createElement('h3');
