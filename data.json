@@ -1,9 +1,16 @@
 {
-	"profile":
+	"profilea":
 	{
-	"name" : "David Manoj G.",
-	"email": "jeneralman@gmail.com",
-	"address"	:"Vishakapatnam",
-	"company": "APSSDC"
+	"name" : "sharon",
+	"email": "sharonfernadiz@gmail.com",
+	"add"	:"Hyderabad",
+	"profile": "model at Fine Jwels"
+	},
+	"profileb":
+	{
+	"name" : "samantha",
+	"email": "samantharuth@gmail.com",
+	"add"	:"Machilipatnam",
+	"profile": "Model/Actress/Producer"
 	}
 }
