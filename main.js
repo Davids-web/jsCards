@@ -24,10 +24,10 @@ function aprofile(card)
  var heading=document.createElement('h2');
  heading.textContent="Sharon Profile";
  pdata.append(heading)
- pdata.classList.add('border','col-5','p-3','my-3','text-white')
+ pdata.classList.add('card','bg-lite','col-4','text-center')
  var pic=document.createElement('img')
  pic.src="sharon.jpg"
- //pic.classList.add('col-8','')
+ pic.classList.add('img-thumbnail')
  pdata.appendChild(pic)
  var name=document.createElement('h3')
  name.textContent=card.name;
@@ -38,6 +38,7 @@ function aprofile(card)
  var mail=document.createElement('h3')
  mail.textContent=card.email;
  pdata.appendChild(mail)
+ //mail.classList.add('text-justify')
  var add=document.createElement('h3')
  add.textContent=card.add;
  pdata.appendChild(add)
@@ -49,10 +50,10 @@ function bprofile(bcard){
 	var heading2=document.createElement('h2');
 	heading2.textContent='Samantha Profile';
 	pdata2.appendChild(heading2)
-	pdata2.classList.add('border','col-5','p-3','my-3')
+	pdata2.classList.add('card','bg-lite','text-center','col-4')
 	var pic=document.createElement('img');
 	pic.src='samantha.jpg'
-	//pic.classList.add('col-8')
+	pic.classList.add('img-thumbnail')
 	pdata2.appendChild(pic)
 	for (var i in bcard){
 		var dlop=document.createElement('h3');
